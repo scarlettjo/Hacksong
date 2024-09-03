@@ -29,10 +29,10 @@ MosaicTileService get _defaultStaticService => const MosaicTileService(
           icon: 'assets/svg/Illustrations_gov.svg',
         ),
         MosaicTileServiceItem(
-          mainText: '有話要說',
-          subText: '1999',
-          url: '',
-          icon: 'assets/svg/icon_talk.svg',
+          mainText: '訂閱通知',
+          subText: 'subscribe',
+          url: "http://192.168.1.102:8080/notifications",
+          icon: 'assets/svg/icon_mail.svg',
         ),
         MosaicTileServiceItem(
           mainText: '警政報警',
