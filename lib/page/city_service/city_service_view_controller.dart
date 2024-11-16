@@ -31,7 +31,7 @@ MosaicTileService get _defaultStaticService => const MosaicTileService(
         MosaicTileServiceItem(
           mainText: '訂閱通知',
           subText: 'subscribe',
-          url: "http://192.168.1.102:8080/notifications",
+          url: "http://192.168.137.185:8080/notifications",
           icon: 'assets/svg/icon_mail.svg',
         ),
         MosaicTileServiceItem(
